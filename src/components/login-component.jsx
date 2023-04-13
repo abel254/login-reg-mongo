@@ -8,7 +8,7 @@ const Login = () => {
     e.preventDefault()
     console.log(email, password);
 
-    fetch('http://localhost:5000/login-user', {
+    fetch('https://login-reg-mongo.herokuapp.com/login-user', {
       method: 'POST', 
       crossDomain: true,
       headers:{

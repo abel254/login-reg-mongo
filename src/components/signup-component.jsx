@@ -13,7 +13,7 @@ const SignUp = () => {
     let regobh = {firstname, lastname, email, password}
     console.log(regobh);
 
-    fetch('http://localhost:5000/register', {
+    fetch('https://login-reg-mongo.herokuapp.com/register', {
       method: 'POST', 
       crossDomain: true,
       headers:{
