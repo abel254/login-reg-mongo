@@ -14,6 +14,7 @@ const SignUp = () => {
     console.log(regobh);
 
     fetch('https://login-reg-mongo.herokuapp.com/register', {
+      mode: 'no-cors',
       method: 'POST', 
       crossDomain: true,
       headers:{

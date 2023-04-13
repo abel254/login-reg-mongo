@@ -9,6 +9,7 @@ const Login = () => {
     console.log(email, password);
 
     fetch('https://login-reg-mongo.herokuapp.com/login-user', {
+      mode: 'no-cors',
       method: 'POST', 
       crossDomain: true,
       headers:{
