@@ -1,0 +1,13 @@
+{
+    "parser": "@babel/eslint-parser", // This line is required to fix "unexpected token" errors
+    "parserOptions": {
+        // Required for certain syntax usages
+        "ecmaVersion": 2020
+      },
+      "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jquery": true
+      }
+}
