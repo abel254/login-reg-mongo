@@ -8,7 +8,7 @@ const Login = () => {
     e.preventDefault()
     console.log(email, password);
 
-    fetch('https://login-reg-mongo.herokuapp.com/login-user', {
+    fetch('https://mauve-binturong-coat.cyclic.app//login-user', {
       mode: 'no-cors',
       method: 'POST', 
       crossDomain: true,
