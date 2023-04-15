@@ -13,7 +13,7 @@ const SignUp = () => {
     let regobh = {firstname, lastname, email, password}
     console.log(regobh);
 
-    fetch('https://mauve-binturong-coat.cyclic.app//register', {
+    fetch('https://mauve-binturong-coat.cyclic.app/register', {
       mode: 'no-cors',
       method: 'POST', 
       crossDomain: true,
